@@ -1,24 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './Components/Navbar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          welcome to video call app by ai student sai pradeep
-        </a>
-      </header>
-    </div>
+    <>
+    <Navbar/>
+    <h1 className='bg-slate-500'>hello world</h1>
+    </>
   );
 }
 
